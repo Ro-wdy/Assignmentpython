@@ -1,9 +1,6 @@
 #try, except, else(optional), finally(optional)
 #Exception handling for a number when divided by zero
 
-from dbm import error
-from operator import add
-
 
 try:
  x = int(input("input your first number: "))
@@ -21,6 +18,11 @@ except ValueError:
 
 else:
  print(f"The numbers {x} and {y} were divided successfully.")
+
+ #finally block will always execute
+finally:
+ print("Execution completed.")
+
 
 
 try:

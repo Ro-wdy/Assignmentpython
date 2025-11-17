@@ -13,3 +13,9 @@ person = {
     "age": 25,
     "city": "Juba"
 }
+
+def add(a, b):
+    return a + b
+
+def multiply(a, b):
+    return a * b

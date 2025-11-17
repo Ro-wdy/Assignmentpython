@@ -13,7 +13,7 @@ while i < 9:
     print(i)
 
     #continue- skips the current iteration and moves to the next one
-for i in range(4, 10):
+for i in range(10):
     if i == 6:
         continue
     print(i)
